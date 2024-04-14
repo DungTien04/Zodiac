@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_bg">
+    <ProgressBar
+        android:id="@+id/iv_1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:elevation="1dp"
+        android:layout_marginBottom="60dp"
+        android:indeterminateDrawable="@drawable/bg_rotation"
+        android:indeterminateDuration="12000"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:id="@+id/iv_bg_title"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="160dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:background="@mipmap/ic_bg_title"
+        tools:ignore="ContentDescription" />
+
+
+</FrameLayout>
